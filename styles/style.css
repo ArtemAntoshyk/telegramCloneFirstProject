@@ -1,0 +1,135 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.main{
+    display: flex;
+    height: 100%;
+}
+.chat {
+    background-color: #e6e9ef;
+    width: 100%;
+}
+.messages{
+    background-color: #86ff92;
+    /*height: 100%;*/
+}
+
+.message-line{
+    background-color: #aed6b2;
+    height: 100%;
+    width: 100%;
+}
+.chats-list{
+    display: block;
+    background-color: #e6e9ef;
+    width: 35%;
+    /*padding: 5px;*/
+}
+.search-bar{
+    padding: 5px;;
+}
+.search-field{
+    width: 100%;
+    height: 28px;
+    border-radius: 15px;
+    border-width: 0;
+    background-color: #cccfd5;
+    padding-left: 10px;
+}
+.chat-element{
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+    /*background-color: #cccfd5;*/
+    width: 100%;
+    height: 50px;
+    position: relative;
+
+}
+
+.chat-element:hover{
+    background-color: #cccfd5;
+}
+
+.left-info{
+    display: block;
+    height: 100%;
+    margin-left: 10px;
+    /*margin-top: 5px;*/
+}
+.left-info p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.right-info{
+    display: inline-flex;
+    justify-content: start;
+    align-items: start;
+    position: absolute;
+    right: 0;
+    padding-right: 10px;
+}
+.right-info .status{
+    padding-top: 0;
+}
+.right-info img{
+    display: block;
+}
+.right-info p{
+    margin-top: 0;
+    padding-bottom: 12px;
+    font: 11px "Arial";
+    color: #6c6c6c;
+}
+.chat-element .name{
+    font: 700 13px "Arial";
+    /*margin-top: 25px;*/
+    /*margin-bottom: 5px;*/
+}
+.chat-element .last-message{
+    font: 12px "Arial";
+    color: #6c6c6c;
+    /*margin-bottom: 30px;*/
+}
+.avatar{
+    border-radius: 50%;
+    background: #db74fa;
+    width: 45px;
+    height: 45px;
+    margin-left: 5px;
+    border-color: #4995be;
+}
+.search-bar{
+    display: block;
+    horiz-align: center;
+}
+
+.main-menu{
+    display: flex;
+    background-color: #293a4b;
+    width: 5%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.nav-elements{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-element-content{
+    color: #5C7A91;
+    font: 700 12px "Arial";
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.nav-element-content p{
+    margin: 0;
+    text-align: center;
+}
